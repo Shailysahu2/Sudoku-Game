@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<!-- <body class="flex items-center justify-center min-h-screen bg-gray-100"> -->
+    
+    <div class="heading">
+    
+        <h1 >Let's Play Sudoku!</h1>
+    </div>
+    <div class="container">
+        <div class="box ">
+            <!-- Add content to the left sidebar here -->
+            <h2 class="head">Rules To Know!</h2>
+<li>Every row must contain the digits 1-9</li>
+<li>Every column must contain the digits 1-9</li>
+<li>Each 9 square box must contain the digits 1-9</li>
+        </div>
+   
+    <div class="sudoku-grid" id="sudoku-grid">
+        <!-- Sudoku grid cells will be generated here -->
+         
+    </div>
+
+    <div class="button-container">
+        <button id="solve-btn" class="mt-4 bg-blue-500 hover:bg-blue-900 text-white font-bold py-2 px-4 rounded">Solution</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
